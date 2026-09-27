@@ -1,0 +1,10 @@
+#include <stdio.h>
+void main(){
+float length,breath,area,perimeter;
+printf("enter the length and breath");
+scanf("%f%f",&length,&breath);
+area=length*breath;
+printf("area of reactangle is %.2f\n",area);
+perimeter=2*(length+breath);
+printf("perimetre of rectangle is %.2f\n",perimeter);
+}
